@@ -1,0 +1,29 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+# Remix compiler artifacts
+**/artifacts/
+**/artifacts/**
+
+# Remix plugin state folders
+deps/
+states/
+
+# Debug info
+*.dbg.json
+*.tsbuildinfo
+
+# Optional
+.env
+.env.local
